@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" content="CSSのFlexの例HTML。元の文章:<https://blog.csdn.net/weixin_46585382/article/details/127326973?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-127326973-blog-124242272.235%5Ev36%5Epc_relevant_default_base3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-127326973-blog-124242272.235%5Ev36%5Epc_relevant_default_base3&utm_relevant_index=5>">
+		<title></title>
+		<style>
+			/* 在css中设置 row */
+			.content{
+				width  : 500px;
+				height : 300px;
+				background-color : brown;
+
+				/* 新加的代码 */
+				display : flex;
+				flex-direction:row;
+				flex-wrap:wrap;
+                align-content:flex-start;
+			}
+			.content-item{
+				width : 50px;
+				height: 50px;
+                color: white;
+                font-size: 0.5em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+			}
+			.item1{
+				background-color: black;
+			}
+			.item2{
+				background-color: blue;
+			}
+			.item3{
+				background-color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="content">
+			<div class="content-item item1">item1</div>
+			<div class="content-item item2">item2</div>
+			<div class="content-item item3">item3</div>
+            <div class="content-item item1">item4</div>
+			<div class="content-item item2">item5</div>
+			<div class="content-item item3">item6</div>	
+            <div class="content-item item1">item7</div>
+			<div class="content-item item2">item8</div>
+			<div class="content-item item3">item9</div>		
+            <div class="content-item item1">item10</div>
+			<div class="content-item item2">item11</div>
+			<div class="content-item item3">item12</div>
+            <div class="content-item item1">item13</div>
+            <div class="content-item item2">item14</div>				
+		</div>
+
+        <br><br>
+        <div class="content">
+			<div class="content-item item1">item1</div>
+			<div class="content-item item2">item2</div>
+			<div class="content-item item3">item3</div>
+            <div class="content-item item1">item4</div>
+			<div class="content-item item2">item5</div>
+			<div class="content-item item3">item6</div>	
+            <div class="content-item item1">item7</div>
+			<div class="content-item item2">item8</div>
+			<div class="content-item item3">item9</div>		
+            <div class="content-item item1">item10</div>
+			<div class="content-item item2">item11</div>
+			<div class="content-item item3">item12</div>
+            <div class="content-item item1">item13</div>
+            <div class="content-item item2">item14</div>				
+		</div>
+	</body>
+	
+</html>
